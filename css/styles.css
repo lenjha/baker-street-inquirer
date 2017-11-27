@@ -96,6 +96,7 @@ a {
   }
   .logo {
     float: left;
+    left: 4%;
   }
   .navigation {
     text-align: center;
@@ -172,24 +173,19 @@ a {
   .main {
     float: none;
     width: 100%;
-    min-width: 500px;
   }
 }
 
-THIS IS STUFF TO GET RID OF:
-position: absolute;
-top: 120px;
-float: left;
-left: 30%;
 
-@media screen and (max-width:390px) {
+
+@media screen and (max-width:520px) {
 
   .character {
-    max-width: 50%;
+    max-width: 49%;
   }
 
   .char-img {
-
+    width: 100%;
   }
 
   .gallery {
@@ -197,7 +193,8 @@ left: 30%;
   }
 
   .main {
-    max-width: 100%;
+    float: none;
+    width: 100%;
   }
 
   .nav {
